@@ -1,0 +1,26 @@
+# Render blueprint for the TenderFit AI backend.
+# Deploy via Render → New → Blueprint, pointed at this repo. Render injects PORT
+# automatically; our server reads process.env.PORT.
+services:
+  - type: web
+    name: tenderfit-ai-server
+    runtime: node
+    plan: free
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PROCUREMENT_SOURCE_MODE
+        value: mock
+      - key: SEARCH_TIMEOUT_MS
+        value: "10000"
+      - key: SEARCH_MAX_RESULTS
+        value: "5"
+      # CORS allow-list: the GitHub Pages origin + local dev. The Pages origin is
+      # just scheme+host (no repo path). Update if your GitHub username changes.
+      - key: ALLOWED_ORIGIN
+        value: "https://ioannakatsanou.github.io,http://localhost:5173"
