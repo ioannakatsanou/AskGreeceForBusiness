@@ -22,7 +22,7 @@ export default function Home() {
         </Badge>
         <h1>Find the tenders you can actually win.</h1>
         <p className="lede">
-          TenderFit AI scans active Greek public procurement opportunities and tells you
+          Ask Greece For Business scans active Greek public procurement opportunities and tells you
           whether your company is qualified to bid — with an explainable compliance gap
           analysis, not just a list of links.
         </p>

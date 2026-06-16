@@ -1,0 +1,17 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ask Greece For Business">
+  <defs>
+    <linearGradient id="agfbMarkGrad" x1="29" y1="31" x2="29" y2="11" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#60A5FA"/>
+    </linearGradient>
+  </defs>
+  <!-- stylobate / foundation -->
+  <rect x="5" y="31" width="30" height="3.6" rx="1.8" fill="#1E293B"/>
+  <!-- ascending colonnade: Greece + business growth -->
+  <rect x="8.5" y="22" width="5" height="9" rx="2.5" fill="#2563EB"/>
+  <rect x="17.5" y="16" width="5" height="15" rx="2.5" fill="#2563EB"/>
+  <rect x="26.5" y="12" width="5" height="19" rx="2.5" fill="url(#agfbMarkGrad)"/>
+  <!-- opportunity / AI decision node -->
+  <circle cx="29" cy="7.6" r="3.3" fill="#60A5FA"/>
+  <circle cx="29" cy="7.6" r="1.25" fill="#ffffff"/>
+</svg>

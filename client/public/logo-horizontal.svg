@@ -1,0 +1,20 @@
+<svg width="248" height="56" viewBox="0 0 248 56" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ask Greece For Business">
+  <defs>
+    <linearGradient id="agfbHGrad" x1="35" y1="47" x2="35" y2="19" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#60A5FA"/>
+    </linearGradient>
+  </defs>
+  <!-- mark (scaled 1.4x of the 40px glyph, vertically centred) -->
+  <g transform="translate(8 0)">
+    <rect x="7" y="43.4" width="42" height="5" rx="2.5" fill="#1E293B"/>
+    <rect x="11.9" y="30.8" width="7" height="12.6" rx="3.5" fill="#2563EB"/>
+    <rect x="24.5" y="22.4" width="7" height="21" rx="3.5" fill="#2563EB"/>
+    <rect x="37.1" y="16.8" width="7" height="26.6" rx="3.5" fill="url(#agfbHGrad)"/>
+    <circle cx="40.6" cy="10.6" r="4.6" fill="#60A5FA"/>
+    <circle cx="40.6" cy="10.6" r="1.75" fill="#ffffff"/>
+  </g>
+  <!-- wordmark -->
+  <text x="72" y="31" font-family="'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="23" font-weight="800" letter-spacing="-0.5" fill="#1E293B">Ask Greece</text>
+  <text x="73" y="46" font-family="'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="3.4" fill="#2563EB">FOR BUSINESS</text>
+</svg>

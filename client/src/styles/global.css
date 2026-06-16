@@ -52,15 +52,13 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
   border-bottom: 1px solid var(--c-border);
 }
 .header .container { height: 100%; display: flex; align-items: center; justify-content: space-between; }
-.logo { display: inline-flex; align-items: center; gap: var(--s-2); background: none; border: 0; padding: 0; color: var(--c-text); }
+.logo { display: inline-flex; align-items: center; gap: 10px; background: none; border: 0; padding: 0; color: var(--c-text); cursor: pointer; }
 .logo:hover { text-decoration: none; }
-.logo-mark {
-  width: 32px; height: 32px; border-radius: 9px;
-  background: linear-gradient(135deg, var(--c-brand), #5b9bff);
-  color: #fff; display: grid; place-items: center; font-weight: 800; font-size: 0.95rem;
-}
-.logo-text { font-weight: 800; font-size: 1.1rem; letter-spacing: -0.01em; }
-.logo-text span { color: var(--c-brand); }
+.logo:hover .logo-word-main { color: #2563EB; }
+.logo-mark { width: 38px; height: 38px; display: block; flex: none; }
+.logo-word { display: flex; flex-direction: column; line-height: 1; text-align: left; }
+.logo-word-main { font-weight: 800; font-size: 1.12rem; letter-spacing: -0.01em; color: #1E293B; transition: color 0.15s; }
+.logo-word-sub { font-weight: 600; font-size: 0.62rem; letter-spacing: 0.2em; text-transform: uppercase; color: #2563EB; margin-top: 3px; }
 
 .nav { display: flex; gap: var(--s-1); align-items: center; }
 .nav a {
